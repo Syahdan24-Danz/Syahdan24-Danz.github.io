@@ -1,0 +1,223 @@
+body {
+  text-align: center;
+  font-family: "montserrat";
+  background-color: #f4f6ff;
+}
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+p{
+    line-height: 1.5;
+    text-align: justify;
+    padding-right: 7%;
+    padding-top: 1rem;
+}
+
+.hello {
+  font-family: "roboto condensed";
+  font-weight: 400;
+  letter-spacing: 2.7px;
+  line-height: 1.5;
+}
+.isi {
+  padding: 7% 10%;
+}
+.btn {
+  margin: auto 1rem;
+}
+
+.garisputus {
+    border: none;
+    border-top: 2px dashed #508a8b;
+    margin: 0;
+  }
+
+.button-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#main{
+    text-align: left;
+}
+@media (max-width: 1028px) {
+    #main{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        padding: 0;
+    }
+    .nav{
+      justify-content: center;
+      padding-left: 0;
+    }
+  }
+  .nav{
+    font-family: "roboto condensed";
+    padding-top: 3%;
+    font-size: 1rem;
+    letter-spacing: 2.7px;
+    padding-left: 9%;
+  }
+
+  .nav-link{
+    color: black;
+  }
+  .nav-link:hover{
+    color: #508a8b;
+  }
+  .pendidikan{
+    padding: 3% 15%;
+  }
+  h5{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+  .card-text{
+    text-align: center;
+    padding: 0;
+  }
+.card{
+  height: 100%;
+}
+
+ .about-pendidikan{
+  padding-top: 5%;
+ }
+ .sosmed{
+  justify-content: center;
+  display: flex;
+  margin: 15% auto 0%;
+ }
+.fa-brands{
+  padding: 1rem;
+  color: black;
+}
+.fa-brands:hover{
+  color: #1D9BF0;
+}
+.syahdan{
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+
+}
+.syahdan1{
+  width: 75%;
+  margin-left: 10%;
+  border-radius: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 10%;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  border: none;
+  border-bottom: 2px dashed #508a8b;
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+input[type="email"]::placeholder,
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #b3b3b3;
+}
+
+input[type="submit"] {
+  margin: 20px 0 0 0;
+}
+
+.contact-h1{
+  padding-top: 7%;
+}
+
+.kanan{
+  background-color: #73a4a5;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  justify-content: center;
+}
+@media (max-width: 1028px){
+  .kanan{
+    position: relative;
+  }
+  .syahdan{
+    position: relative;
+  }
+  .syahdan1{
+    margin-top: 15%;
+    width: 25%;
+    text-align: center;
+  }
+}
+
+.contact-kanan{
+  padding-top: 15%;
+  font-weight: lighter;
+  letter-spacing: 2.7px;
+  text-align: left;
+  padding-left: 1rem;
+}
+.info{
+  text-align: left;
+  margin-top: 7%;
+  padding-left: 1rem;
+}
+.phone{
+  padding-top: 2rem;
+}
+.komp{
+  padding-right: 1rem;
+}
+
+.testimonial-image{
+  width: auto;
+  height: 100px;
+}
+
+#pendidikan{
+  background-color: #508a8b;
+}
+.testimonial-image{
+  margin: 25px auto;
+}
+.colored-section{
+  padding: 1% 15% 7%;
+}
+.pendidikan{
+  color: white;
+  padding-bottom: 50px;
+}
+#skills{
+}
+.box {
+  border: 1px solid #508a8b;
+  padding: 10px;
+  border-radius: 10%;
+}
