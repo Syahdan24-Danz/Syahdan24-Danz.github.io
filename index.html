@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>I'm Syahdan</title>
+    <!-- Font AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/48e780af59.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/android-chrome-512x512.png"
+    />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google font -->
+    <link
+    href="https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:wght@200;400;900&family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section id="main">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="">Syahdan<span class="site">.site</span></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+          >
+          <i class="fa-solid fa-bars-staggered" style="color: #000000;"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#main">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pendidikan">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:syahdan22001@gmail.com">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <hr class = garisputus>
+
+        <div class="row isi">
+          <div class="col-lg-6">
+            <h4 class="hello">Hello, I'm</h4>
+            <h1>Syahdan Firmansyah</h1>
+            <p>Saya seorang mahasiswa yang tengah menempuh pendidikan di Universitas Padjadjaran dengan prodi S1 Bisnis Digital.
+              </p>
+            <div class="button-main">
+              <button
+                type="button"
+                class="btn btn-warning btn-lg"
+                onclick="window.location.href='#pendidikan'"
+              >
+                <i class="fa-solid fa-user" style="color: #000000"></i> About me
+              </button>
+              <button type="button" class="btn btn-outline-dark btn-lg" onclick="window.location.href='mailto:syahdan22001@gmail.com'">
+                <i class="fa-solid fa-address-book" style="color: #000000"></i>
+                Contact me
+              </button>
+            </div>
+            <div class="sosmed">
+            <a href="https://www.instagram.com/syadnfr/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/syahdan-firmansyah-651236250/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </div>
+          </div>
+
+          <div class="pict-me col-lg-6">
+            <div class="syahdan">
+              <img class="syahdan1" src="./img/Syahdan1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="colored-section" id="pendidikan">
+
+      <h2 class="pendidikan">Riwayat Pendidikan</h2>
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="1500">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <img class="testimonial-image" src="img/pngwing.com.png" alt="Smk">
+              <h2 class="testimonial-text">SMKS PERKASA 2</h2>
+              <em>Jurusan Teknik Mesin</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="testimonial-image" src="img/logo-unpad1.png" alt="Universitas">
+              <h2 class="testimonial-text">Universitas Padjadjaran</h2>
+              <em>Jurusan S1 Bisnis Digital (Undergraduate)</em>
+            </div>
+          </div>
+          <ol class="carousel-indicators justify-content-center">
+            <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+          </ol>
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+  
+    </section>
+
+    <section id="skills">
+      <h2>Pengalaman</h2>
+      <div class="row skills1">
+
+        <div class="pricing-column col-lg-6">
+          <div class="card pricing-card text-center">
+            <div class="card-body">
+              <h4 class="price-text">Penjamin Mutu & K3LH</h4>
+              <p style="text-align: center;">Prakerin di PT.Pindad (persero)</p>
+              <li>Mengecek perakitan komponen alat berat</li>
+              <li>Packing dan cek kualitas pengait rel kereta</li>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pricing-column col-lg-6">
+          <div class="card pricing-card text-center">
+            <div class="card-body">
+              <h4 class="price-text">Seller Admin Shopee</h4>
+              <li style="margin-top: 5rem;">Merespon pelanggan</li>
+              <li>Memproses pesanan hingga muncul resi</li>
+              <li>Memasang iklan dengan iklanku</li>
+            </div>
+          </div>
+        </div>
+  
+  
+  
+      </div>
+
+        
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+    </section>
+    <footer>
+    <div>
+      <em>@ Syahdan 2023</em>
+    </div>
+  </footer>
+</html>
