@@ -127,6 +127,7 @@ p {
 @media (max-width: 1028px) {
   #main {
     text-align: center;
+    height: 700px
   }
   p {
     text-align: center;
